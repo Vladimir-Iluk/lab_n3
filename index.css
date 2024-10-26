@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Line_Blue{
+    border-bottom: 2px solid blue;;
+    width: 80%;
+    margin: 0 auto; 
+}
+.Line_Brown{
+    border-bottom: 3px solid brown;
+
+}
+.Line_Yellow {
+    border-bottom: 3px solid yellow;
+    margin: 0 auto;
+    width: 650px;
+}
+.Line_Pink {
+    border-bottom: 3px solid pink;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+.Last{
+    background-color: yellowgreen;
+}
+.Product {
+    background-color: lightcoral;
+}
+.SpiderShop {
+    background-color: limegreen;
+}
+.imgHeader img {
+    width: 250px;
+    height: 250px;
+    border: 4px solid black; 
+}
+
+.table_Information {
+    width: 80%; 
+    text-align: center; 
+    border-collapse: collapse; 
+    background-color: lightgreen;
+}
+
+.table_Information caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.table_Information th {
+    padding: 10px;
+    border: 2px solid black; 
+}
+.category {
+    text-align: center;
+
+}
+.tableMercury {
+    width: 80%;
+    border-collapse: collapse;
+}
+.table-cell, .city-cell {
+    border: 1px solid black;
+    padding: 10px ;
+    text-align: center;
+}
+.table-header {
+    background-color: #5511AA;
+}
+.city-cell {
+    font-weight: bold;
+}
